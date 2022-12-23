@@ -1,6 +1,9 @@
 import { onSnapshot } from 'firebase/firestore';
 import React from 'react'
 import { db } from '../firebase';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import { doc } from 'firebase/firestore';
 
 const Chats = () => {
 
